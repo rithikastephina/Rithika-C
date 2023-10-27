@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-image: url("image51.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+}
+.logo{
+    font-size: 30px;
+    color: aqua;
+}
+.nav{
+    position: relative;
+    left:-180px;
+}
+a{
+    padding: 5px 15px;
+    color: coral;
+    font-size: 20px;
+    text-decoration:none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.search ul{
+    color: white;
+    
+}
+
+/************heading************/
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+}
+
+/**********left**********/
+.left p:nth-child(1){
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.left h1{
+    font-size: 90px;
+    color: powderblue;
+}
+.left p:nth-child(3){
+    color: burlywood;
+    font-size: 30px;
+    font-style: italic;
+}
+.left button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border:2px solid aqua;
+    background-color: transparent;
+    color:white;
+    margin: 20px 0px;
+}
+/********Socialmedia********/
+.Socialmedia{
+    position:absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+    font-size: 25px;
+}
+.Socialmedia i:hover{
+    color: blanchedalmond;
+}
